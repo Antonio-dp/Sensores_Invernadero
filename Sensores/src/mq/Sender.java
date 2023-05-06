@@ -16,8 +16,8 @@ import datos.DataGenerator;
  * @author tonyd
  */
 public class Sender {
-    private final static String QUEUE_NAME = "cola_entidad";
-    private final static int INTERVALO = 1000; // intervalo entre cada envío en milisegundos
+    private final static String QUEUE_NAME = "cola_datos";
+    private final static int INTERVALO = 4000; // intervalo entre cada envío en milisegundos
     private static DataGenerator dataGenerator;
 
     public static void main(String[] args) throws Exception {
